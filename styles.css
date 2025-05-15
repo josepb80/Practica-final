@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(221, 199, 2);
+    margin: 0; 
+    padding: 10px;
+}
+
+.nav-link:hover{
+    color: rgb(23, 136, 0);
+}
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    text-align: center;
+    margin: 0 15px;
+}
+
+
+.main-footer{
+    color: white;
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+}
+
+.footer-links{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.footer-link:hover{
+    color: rgb(163, 163, 163);
+    text-decoration: underline;
+}
