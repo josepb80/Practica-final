@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .navbar{
-    background-color: rgb(226, 61, 61);
+    background-color: rgb(247, 73, 73);
     margin: 0; 
     padding: 10px;
 }
@@ -58,18 +59,22 @@ body{
     text-decoration: underline;
 }
 
+.product-subtitle{
+    color:rgb(59, 59, 59)
+}
+
 .header-title{                                                                                                                                                                                                                                                                                                                                                                          
     text-align: center;
     padding-bottom: 25px;
     margin: 10px;
 }
 
-.Noticias-ultima{
+.div-section{
     padding: 10px;
     margin: 50px;
 }
 
-.ultima-noticia {
+.div-div{
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -84,7 +89,7 @@ body{
     margin: 20px;
 }
   
-.ultima-noticia:hover {
+.div-div:hover {
     transform: scale(1.05);
 }
 
@@ -94,8 +99,15 @@ body{
     margin-left: 20px ;
 }
 
-.foto{
+.foto_equipo{
     width: 200px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.foto{
+    width: 300px;
     height: auto;
     object-fit: cover;
     margin-right: 50px;
