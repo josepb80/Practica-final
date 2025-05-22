@@ -4,11 +4,14 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-.navbar{
+.navbar {
     background-color: rgb(247, 73, 73);
     margin: 0; 
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
+
 
 .nav-link:hover{
     background-color: rgb(105, 105, 105);
@@ -111,4 +114,28 @@ body{
     height: auto;
     object-fit: cover;
     margin-right: 50px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius:30px;
+}
+
+.logo:hover{
+    background-color: rgb(202, 202, 202);
+    border-radius:30px;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.footer-logo {
+    width: 700px;
+    height: auto;
 }
