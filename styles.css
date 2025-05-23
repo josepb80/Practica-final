@@ -14,7 +14,7 @@ body{
 
 
 .nav-link:hover{
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(9, 0, 133);
     border-radius:30px;
     padding:10px;
 }
@@ -68,7 +68,6 @@ body{
 
 .header-title{                                                                                                                                                                                                                                                                                                                                                                          
     text-align: center;
-    padding-bottom: 25px;
     margin: 10px;
 }
 
