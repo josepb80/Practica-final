@@ -63,7 +63,9 @@ body{
 }
 
 .product-subtitle{
-    color:rgb(59, 59, 59)
+    color:rgb(59, 59, 59);
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .header-title{                                                                                                                                                                                                                                                                                                                                                                          
