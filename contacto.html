@@ -31,22 +31,24 @@
 
     <main class="div-main">
         <section class="div-section">          
-            <form method="post" enctype="text/plain">
-              <label for="nombre">Nombre:</label>
-              <input type="text" id="nombre" name="Nombre" required>
-            </form>
-
-            <form>
-              <label for="email">Correo electrónico:</label>
-              <input type="email" id="email" name="Correo electrónico" required>
-            </form>
+            <form class="formulario-contacto" action="mailto:[tu correo electrónico]" method="post" enctype="text/plain">
+                <div class="campo-formulario">
+                  <label for="nombre" class="label-formulario">Nombre:</label>
+                  <input type="text" id="nombre" name="Nombre" class="input-formulario" required>
+                </div>
             
-            <form>
-              <label for="mensaje">Mensaje:</label>
-              <textarea id="mensaje" name="Mensaje" rows="1" required></textarea>
-          
-              <button type="submit">Enviar</button>
-            </form>
+                <div class="campo-formulario">
+                  <label for="email" class="label-formulario">Correo electrónico:</label>
+                  <input type="email" id="email" name="Correo electrónico" class="input-formulario" required>
+                </div>
+            
+                <div class="campo-formulario">
+                  <label for="mensaje" class="label-formulario">Mensaje:</label>
+                  <textarea id="mensaje" name="Mensaje" rows="5" class="textarea-formulario" required></textarea>
+                </div>
+            
+                <button type="submit" class="boton-enviar">Enviar</button>
+              </form>
         </section>
     </main>
 

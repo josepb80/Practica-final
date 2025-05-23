@@ -145,3 +145,55 @@ body{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.formulario-contacto {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Campos del formulario ===== */
+.campo-formulario {
+  margin-bottom: 20px;
+}
+
+.label-formulario {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.input-formulario,
+.textarea-formulario {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccd6dd;
+  border-radius: 8px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.input-formulario:focus,
+.textarea-formulario:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+/* ===== Botón de envío ===== */
+.boton-enviar {
+  background-color: #1d3557;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-enviar:hover {
+  background-color: #457b9d;
+}
